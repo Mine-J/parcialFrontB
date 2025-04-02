@@ -4,8 +4,8 @@ import { respuesta,definitions } from "../type.ts";
 
 
 
-export const Pagina: FunctionalComponent<respuesta[]> = (respuesta) => {
-  const resp = respuesta.respuesta;
+export const Pagina: FunctionalComponent<respuesta[]> = (respuestaApi) => {
+  const resp = respuestaApi.respuesta;
   
   return (
     <div class="contendorBusqueda">
